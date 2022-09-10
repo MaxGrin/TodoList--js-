@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.task-list {
+    width: 500px;
+}
+.task-list p{
+    margin: 10px;
+}
+.completed{
+    background-color: teal;
+    color: #fff;
+}
+.completed p{
+    text-decoration: line-through;
+}
+.task{
+    display: flex;
+    align-items: center;
+    border: 1px solid teal;
+    padding: 5px 10px;
+    margin: 15px 10px;
+}
+.task p{
+    margin-left: 5px;
+}
+
+.input-panel{
+    width: 480px;
+    margin: 8px;
+    padding: 3px;
+}
+.input-panel button{
+    padding: 5px;
+    width: 25%;
+}  
+.input-panel input{
+    padding-left: 5px;
+    width: 72%;
+    height: 25px;
+}
+#add-task-btn{
+    color: #fff;
+    background-color: teal;
+    border-color: teal;
+}
